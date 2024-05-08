@@ -1,0 +1,113 @@
+GET http://localhost:1235/destinations
+
+###
+GET http://localhost:1235/destinations?sectionPrimary=Full+Day
+
+###
+GET http://localhost:1235/destinations/c10dc8f3-8c9f-45d3-b6ca-26e78ee3e84f
+###
+POST http://localhost:1235/destinations
+Content-Type:  application/json
+
+{
+    "title": "Ica / Huacachina",
+    "descriptionTitle": "Descubre el Oasis en el Desierto",
+    "slug": "ica-huacachina",
+    "imgSlider": [
+        "/img/Full-Day/icaHuacachinaSlider1.webp",
+        "/img/Full-Day/icaHuacachinaSlider2.webp",
+        "/img/Full-Day/icaHuacachinaSlider3.webp",
+        "/img/Full-Day/icaHuacachinaSlider4.webp"
+    ],
+    "descriptionGeneral": "Ica y Huacachina son destinos ubicados en el sur de Perú, conocidos por su impresionante desierto y el famoso oasis de Huacachina. Este tour te llevará a disfrutar de aventuras en las dunas de arena, paseos en buggies y relajación en el oasis.",
+    "timeTravel": "Full Day",
+    "itinerary": [
+        "Encuentro en punto de partida: Encuentro en el punto de partida en Lima.",
+        "Viaje a Ica: Traslado en vehículo privado hacia Ica desde Lima.",
+        "Aventura en las Dunas: Tour en buggy por las dunas de arena de Ica, con paradas para disfrutar de la emoción del sandboarding.",
+        "Visita a Huacachina: Tiempo libre en el oasis de Huacachina para relajarse, explorar los alrededores y disfrutar de actividades como paseos en bote por el oasis.",
+        "Almuerzo: Almuerzo incluido en un restaurante local con vista al oasis.",
+        "Regreso a Lima: Regreso al punto de partida en Lima.",
+        "Fin del Tour: Finalización del tour en el punto de partida."
+    ],
+    "travelDetails": [
+        "Traslados: Traslado en vehículo privado desde Lima hasta Ica y Huacachina, y regreso.",
+        "Alimentación: Almuerzo incluido en un restaurante local.",
+        "Guía Turístico: Guía turístico experto durante toda la excursión."
+    ],
+    "considerations": [
+        "Ropa cómoda y calzado adecuado para actividades al aire libre.",
+        "Protector solar, sombrero y gafas de sol para protegerse del sol en el desierto.",
+        "Traje de baño y toalla para disfrutar del oasis de Huacachina."
+    ],
+    "additionalServices": [
+        "Paseo en bote por el Oasis de Huacachina.",
+        "Sandboarding en las dunas."
+    ],
+    "imgSliderSecondary": [
+        "/img/Full-Day/icaHuacachinaSliderSecondary1.webp",
+        "/img/Full-Day/icaHuacachinaSliderSecondary2.webp",
+        "/img/Full-Day/icaHuacachinaSliderSecondary3.webp",
+        "/img/Full-Day/icaHuacachinaSliderSecondary4.webp"
+    ],
+    "sectionPrimary": "Full Day",
+    "sectionSecondary": "",
+    "price": [
+        {
+            "currency": "PEN",
+            "amount": 220,
+            "includedServices": [
+                "Transporte",
+                "Almuerzo",
+                "Guía Turístico"
+            ],
+            "notIncludedServices": [
+                "Gastos personales."
+            ]
+        }
+    ],
+    "comment": [
+        {
+            "name": "Javier",
+            "imgProfile": "https://randomuser.me/api/portraits/men/37.jpg",
+            "content": "El tour en buggy por las dunas fue emocionante, ¡nunca había experimentado algo así antes!",
+            "date": "2024-03-20T19:04:28"
+        },
+        {
+            "name": "Carolina",
+            "imgProfile": "https://randomuser.me/api/portraits/women/52.jpg",
+            "content": "Huacachina es un lugar mágico, el contraste entre el oasis y las dunas de arena es impresionante.",
+            "date": "2024-03-20T19:04:28"
+        },
+        {
+            "name": "Diego",
+            "imgProfile": "https://randomuser.me/api/portraits/men/81.jpg",
+            "content": "El almuerzo con vista al oasis fue una experiencia memorable. La comida estuvo deliciosa y el paisaje espectacular.",
+            "date": "2024-03-20T19:04:28"
+        }
+    ]
+}
+
+
+###
+DELETE http://localhost:1235/destinations/15b5f811-d630-4029-abbf-c7288ed88c80
+
+###
+PATCH http://localhost:1235/destinations/b5200d10-8496-4ce4-8a14-1e6095c7b2f7
+Content-Type:  application/json
+
+{
+  "imgSlider": [
+    "/img/Tour-Lima/Tour-Tematico/gastronomicoSlider1.webp",
+    "/img/Tour-Lima/Tour-Tematico/gastronomicoSlider2.webp",
+    "/img/Tour-Lima/Tour-Tematico/gastronomicoSlider3.webp",
+    "/img/Tour-Lima/Tour-Tematico/gastronomicoSlider4.webp"
+  ],
+  "imgSliderSecondary": [
+    "/img/Tour-Lima/Tour-Tematico/gastronomicoSliderSecondary1.webp",
+    "/img/Tour-Lima/Tour-Tematico/gastronomicoSliderSecondary2.webp",
+    "/img/Tour-Lima/Tour-Tematico/gastronomicoSliderSecondary3.webp",
+    "/img/Tour-Lima/Tour-Tematico/gastronomicoSliderSecondary4.webp"
+  ]
+}
+

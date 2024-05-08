@@ -1,0 +1,50 @@
+[
+  {
+    "id": "c8a7d63f-3b04-44d3-9d95-8782fd7dcfaf",
+    "tourOption": "Tours Nacionales",
+    "slug": "Amazonas",
+    "title": "Tours Perú - Amazonas",
+    "name": "Amazonas",
+    "imgSlider": [
+      "https://backiee.com/static/wpdb/wallpapers/1920x1080/267116.jpg",
+      "https://backiee.com/static/wpdb/wallpapers/1920x1080/267116.jpg",
+      "https://backiee.com/static/wpdb/wallpapers/1920x1080/267116.jpg",
+      "https://backiee.com/static/wpdb/wallpapers/1920x1080/267116.jpg"
+    ],
+    "description": "Adéntrate en la maravillosa selva amazónica del Amazonas, donde la biodiversidad cobra vida en cada rincón. Descubre la magia de la flora y fauna exuberante, navega por ríos serpenteantes y conecta con comunidades locales que comparten sus tradiciones ancestrales. Sumérgete en esta experiencia única en la que la naturaleza desborda vida y misterio, creando recuerdos inolvidables.",
+    "timeTravel": "4 días y 3 noches",  
+    "itinerary": [
+      "Itinerario de Dia 1", 
+      "Itinerario de Dia 2", 
+      "Itinerario de Dia 3", 
+      "Itinerario de Dia 4"
+    ],
+    "considerations": [
+      "Lleva ropa ligera, repelente de insectos y protección contra la lluvia",
+      "No olvides binoculares para disfrutar de la biodiversidad"
+    ],
+    "additional": [
+      "Adicional 1", 
+      "Adicional 2"
+    ],
+    "price": "300",
+    "imgCarousel": [
+      "https://backiee.com/static/wpdb/wallpapers/1920x1080/267116.jpg",
+      "https://backiee.com/static/wpdb/wallpapers/1920x1080/267116.jpg",
+      "https://backiee.com/static/wpdb/wallpapers/1920x1080/267116.jpg",
+      "https://backiee.com/static/wpdb/wallpapers/1920x1080/267116.jpg"
+    ],
+    "comments": [
+      {
+        "img": "perfil.png",
+        "name": "Nombre de usuario",
+        "description": "texto"
+      },
+      {
+        "img": "perfil2.png",
+        "name": "Nombre de usuario2",
+        "description": "texto"
+      }
+    ]
+  }
+]
